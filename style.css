@@ -1,0 +1,39 @@
+body {
+    background: url(https://wallpaperaccess.com/full/269150.jpg);
+}
+
+h1, h3, #bttn {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    margin: 5px;
+}
+
+#gridBox {   
+    width: 50vw;
+    height: 70vh;
+    margin: 5vh auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns:repeat(16,1fr);
+}
+
+.grid {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+button {
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 12px 28px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
