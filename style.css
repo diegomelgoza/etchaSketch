@@ -32,6 +32,7 @@ button {
     padding: 12px 28px;
     text-decoration: none;
     display: inline-block;
+    background-color: rgb(253, 253, 253);
 }
 
 button:hover {
